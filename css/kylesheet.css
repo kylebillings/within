@@ -104,11 +104,14 @@
 }
 .ip-main h2 {
 	margin-top: 25%;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	color: #15D186;
 	font-size: 8.25em;
 	font-size: 7vw;
 	line-height: 1;
+}
+.ip-main h3 {
+	line-height: 130%;
 }
 
 .browser {
@@ -247,7 +250,7 @@
 }
 
 /* Content animations */
-.loaded .ip-main h2,
+.loaded .ip-main h2, .ip-main h3,
 .loaded .ip-main .browser,
 .loaded .ip-main .browser .box,
 .loaded .codrops-demos {
