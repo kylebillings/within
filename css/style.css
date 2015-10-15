@@ -34,6 +34,29 @@ h3 {
 	color: #15D186;
 	font-weight: 100;
 }
+.green {
+  color: #15D186;
+}
+.black-box {
+  padding: 45px;
+  text-align: center;
+}
+.black-box-inner {
+  background-color: #323735;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-shadow: 9px 9px 24px -5px rgba(31,31,31,0.42);
+-moz-box-shadow: 9px 9px 24px -5px rgba(31,31,31,0.42);
+box-shadow: 9px 9px 24px -5px rgba(31,31,31,0.42);
+}
+.black-box > p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.smaller {
+  font-size: 18px;
+  line-height: 24px;
+}
 .ip-container {
 	height: 100%;
 }
@@ -51,6 +74,9 @@ h3 {
   box-shadow: 
     1px 1px 5px rgba(0, 0, 0, 0.2),
     inset 1px 1px 15px rgba(100, 100, 100, 0.15);
+}
+.edge-2 {
+  border: 6px solid #fff;
 }
 /* Demo colors */
 .demo-1 {
