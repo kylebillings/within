@@ -171,6 +171,9 @@ canvas {
 	cursor: default;
 	pointer-events: none;
 }
+.hero-image {
+  display: inline;
+}
 #hero-section {
 	height: 100%;
 }
