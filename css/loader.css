@@ -1,8 +1,8 @@
 .loader-container {
 	position: absolute;
-	width: 300px;
+	width: 400px;
 	margin-top: 20%;
-	margin-left: -150px;
+	margin-left: -200px;
 	left: 50%;
 }
 		.line{
@@ -494,3 +494,10 @@
 	color: #15D186;
 	display:none; /* hide the items at first only */
 	}
+@media screen and (max-width: 500px) {
+
+	.loader-container {
+		display: none;
+	}
+
+}
