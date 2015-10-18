@@ -736,7 +736,8 @@ section.hero.visible .hub > * {
 
 }
 .btn-6 {
-  color: #38d798;
+  color: #fff;
+  background-color: #15D186;
 }
 .btn-6 span {
   position: absolute;
@@ -744,7 +745,7 @@ section.hero.visible .hub > * {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background: #12bc78;
+  background: #00B86D;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -760,7 +761,7 @@ section.hero.visible .hub > * {
   height: 562.5px;
 }
 .btn-6:active {
-  background: #15D186;
+  background: #00B86D;
 }
 #checkout *,
 #checkout *:before,
@@ -768,6 +769,9 @@ section.hero.visible .hub > * {
   box-sizing: border-box;
   -webkit-transition: 0.5s;
           transition: 0.5s;
+}
+#checkout {
+  padding-bottom: 120px;
 }
 #footer {
   background-color: #323735;
@@ -780,4 +784,7 @@ section.hero.visible .hub > * {
 }
 #footer a:hover {
   color: #12bc78;
+}
+#footer p {
+  color: #fff;
 }
